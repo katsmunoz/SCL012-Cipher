@@ -21,11 +21,11 @@ Ver [Prototipo de baja fidelidad](https://katherinemuoz549352.invisionapp.com/ov
 
 Pantalla Home
 
-![Primera Pantalla: HOME](images\C1.jpg)
+![Primera Pantalla: HOME](./images/C3.jpg)
 
 Pantalla Cifrado
 
-![Segunda Pantalla: Codificar](images\C2.jpg)
+![Segunda Pantalla: Codificar](images/C2.jpg)
 
 Pantalla Descifrado
 
@@ -79,6 +79,3 @@ Screenshot diseño final
 * Hacer click en el botón `Revelar`.
 * El mensaje aparecerá en la caja de texto derecha, listo para copiar y compartir.
 * Para limpiar el mensaje y refrescar la página, hacer click en el botón `Limpiar`.
-
-## Enlace deploy
-[Sigil](https://katsmunoz.github.io/SCL012-Cipher/src/index.html)
