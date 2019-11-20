@@ -1,4 +1,4 @@
-![Logo](images\sigilResize.jpg)
+![Logo](images/sigilResize.jpg)
 
 # SIGIL
 
@@ -29,7 +29,7 @@ Pantalla Cifrado
 
 Pantalla Descifrado
 
-![Tercera Pantalla: Decodificar](images\C3.jpg)
+![Tercera Pantalla: Decodificar](images/C3.jpg)
 
 ### Prototipo de alta fidelidad
 Mi primer prototipo de alta fidelidad surge luego de una encuesta llevada a cabo en mis redes sociales, donde pregunté para qué utilizarían una app que cifrara mensajes.
@@ -40,7 +40,7 @@ Ver [Prototipo de alta fidelidad](https://www.figma.com/file/8cYLmCGiHazaMmEqbs4
 
 Screenshot prototipo 1
 
-![sigil-figma](images\sigilFigma.jpg)
+![sigil-figma](images/sigilFigma.jpg)
 
 Después de terminar el diseño de mi app e integrar todas las características desde Figma, decidí realizar el primer test de usabilidad con usuarios reales, para comprobar si realmente se ajusta a sus necesidades en términos de diseño, facilidad de uso y navegabilidad.
 
@@ -52,7 +52,7 @@ Finalmente, logré incorporar estos cambios al diseño final, junto con las `fun
 
 Screenshot diseño final
 
-![SigilFinal](images\SIGIL-desktop.jpg)
+![SigilFinal](images/SIGIL-desktop.jpg)
 
 ## Desarrollado para:
 [Laboratoria](http://laboratoria.la)
