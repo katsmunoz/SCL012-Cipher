@@ -1,3 +1,5 @@
+![Logo](images\Sigil-logo.png)
+
 # SIGIL
 
 - SIGIL es una app que permite crear y revelar mensajes avocados a diversos tipos de manifestaciones sociales.
@@ -15,11 +17,16 @@ Ver [Prototipo de baja fidelidad](https://katherinemuoz549352.invisionapp.com/ov
 Screenshots:
 
 Pantalla Home
-![Primera Pantalla: HOME](src\images\C1.jpg)
+
+![Primera Pantalla: HOME](images\C1.jpg)
+
 Pantalla Cifrado
-![Segunda Pantalla: Codificar](src\images\C2.jpg)
+
+![Segunda Pantalla: Codificar](images\C2.jpg)
+
 Pantalla Descifrado
-![Tercera Pantalla: Decodificar](src\images\C3.jpg)
+
+![Tercera Pantalla: Decodificar](images\C3.jpg)
 
 ### Prototiposde alta fidelidad
 Mi primer prototipo de alta fidelidad surge luego de una encuesta llevada a cabo en mis redes sociales, donde pregunté para qué utilizarían una app que cifrara mensajes. La mayoría de las respuestas estaban relacionadas con la necesidad de organizar marchas y cacerolazos, ya que estaba el miedo constante de ser expuestos a represalias o prejuicios de parte de sus contactos. A partir de esto, surgen ideas para el tema de mi app, los colores y el diseño. Con las ideas un poco más claras, decidí utilizar [Figma](https://www.figma.com/) para desarrollar mi prototipo. Decidí enfocarme en usuarios jóvenes, con un rango etario entre 15 - 25 años en promedio, por lo que decidí añadir colores vibrantes y botones que fueran más llamativos.
@@ -27,7 +34,8 @@ Mi primer prototipo de alta fidelidad surge luego de una encuesta llevada a cabo
 Ver [Prototipo de alta fidelidad](https://www.figma.com/file/8cYLmCGiHazaMmEqbs40z7/SIGIL?node-id=0%3A1) en Figma
 
 Screenshot prototipo 1
-![Sigil-Figma](src\images\sigilfigma.jpg)
+
+![sigil-figma](images\sigilFigma.jpg)
 
 ### UX: Test de Usabilidad
 Después de terminar el diseño de mi app e integrar todas las características desde Figma, decidí realizar el primer test de usabilidad con usuarios reales, para comprobar si realmente se ajusta a sus necesidades en términos de diseño, facilidad de uso y navegabilidad.
@@ -39,7 +47,8 @@ Sumado a esto, decidí cambiar la descripción de la app que aparece debajo del 
 Finalmente, logré incorporar estos cambios al diseño final, junto con las funciones listas para cifrar mayúsculas, minúsculas y mantener los espacios.
 
 Screenshot diseño final
-![SigilFinal](src\images\SIGIL-desktop.jpg)
+
+![SigilFinal](images\SIGIL-desktop.jpg)
 
 ## Desarrollado para:
 [Laboratoria](http://laboratoria.la)
