@@ -1,4 +1,4 @@
-![Logo](images\Sigil-logo.png)
+![Logo](./images\Sigil-logo.png)
 
 # SIGIL
 
