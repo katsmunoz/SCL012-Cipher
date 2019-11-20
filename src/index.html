@@ -6,24 +6,24 @@
     <title>Sigil</title>
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
-    <link rel="icon" href="favicon1.cc" type="image/x-icon">
+    <link rel="icon" href="sigilOjo.png" type="image/x-icon">
 </head>
 
 <body>
 
     <!--Cabecera de bienvenida-->
-    <section id="root" class="content">
+    <section id="contentBox" class="content">
+    <img id="logoSigil" src="SigilFavicon.png" alt="Logo" width="300" height="233">
 
         <!--Cabecera-->
         <div id="cabecera-txt" class="cabecera-style">
             <header class="content-header">
-                <h1 class="appname">Sigil</h1>
+                <!--<h1 class="appname">Sigil</h1>-->
                 <p class="appsummary1">Sigil es una herramienta que te ayuda a crear y revelar enigmáticos mensajes para
-                    manifestaciones ciudadanas.
+                    manifestaciones ciudadanas. 
                 </p>
                 <br>
-                <p class="appsummary2">Con Sigil, puedes compartir tus cacerolazos, funas, marchas y cualquier
-                    evento que se te ocurra, de manera segura y efectiva mediante tus redes sociales.
+                <p class="appsummary2">Con Sigil, puedes organizar tus cacerolazos, manifestaciones, marchas, ¡y más!
                 </p>
             </header>
         </div>
@@ -31,8 +31,8 @@
         <!--DIV Offset-->
         <div id="offset-box" class="offsetbox-style">
             <div class="desplazamiento-txt">
-                <label class="desplazamiento">Clave Numérica</label>
-                <input type="number" id="offset-number" class="offset-style">
+                <label id="claveNum" class="desplazamiento">Clave Numérica</label>
+                <input title="¡Recuerda que necesitas recordar este número para descifrar tu mensaje!" type="number" id="offset-number" class="offset-style">
             </div>
 
             <!--Div botones y cajas de texto 1 y 2-->
@@ -41,16 +41,16 @@
                 <!--Box de texto 1-->
 
                 <div id="txtEnter1" class="text-box1">
-                    <textarea id="txtMsge1" class="box-left" cols="30" rows="15"
+                    <textarea title="Recuerda ingresar sólo letras." id="txtMsge1" class="box-left" cols="30" rows="15"
                         placeholder="Escribe o pega tu mensaje..."></textarea>
                 </div>
 
                 <!--Botones crear y revelar-->
 
                 <div id="btn-cr" class="botones-cr">
-                    <button id="crear" class="btn-crear">Crear</button>
+                    <button title="Haz click acá para crear tu mensaje secreto." id="crear" class="btn-crear">Crear</button>
                     <br>
-                    <button id="revelar" class="btn-revelar">Revelar</button>
+                    <button title="Haz click acá para descubrir el mensaje secreto." id="revelar" class="btn-revelar">Revelar</button>
                 </div>
 
 
@@ -67,11 +67,10 @@
 
             <div id="btn-clear" class="btn-clear-style">
                 <button onclick="location.reload();" class="btn-limpiar">Limpiar</button>
-            </div>
-        </div>
-
+                </div>
+                </div>
+    </section>            
         <!--CIPHER-->
-        <div id="root"></div>
         <script src="cipher.js"></script>
         <script src="index.js"></script>
 </body>

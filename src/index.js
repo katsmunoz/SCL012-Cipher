@@ -7,8 +7,12 @@ let msgCoded = document.getElementById('txtMsge2');
 document.getElementById('crear').addEventListener('click', crear);
 
 function crear () {
+// ALERT si es que el usuario no ingresa offset o mensaje
+    if (offsetNumber.value === "" || newTxt.value === "") {
+        alert('Recuerda ingresar tu mensaje y la clave numérica para continuar.');
+    } else {
     msgCoded.innerHTML = window.cipher.encode(offsetNumber.value, newTxt.value);
-    
+    }
 }
 
 // Llamar función DECODE

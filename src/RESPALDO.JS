@@ -33,3 +33,8 @@ window.cipher = {
             return encodeTxt;
    }
 };
+
+<div id="btn-clear" class="btn-clear-style">
+<button onclick="location.reload();" class="btn-limpiar">Limpiar</button>
+</div>
+</div>

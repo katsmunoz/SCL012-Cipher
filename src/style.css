@@ -3,35 +3,14 @@
     padding: 0;
 }
 
- body {
+body {
     background-image: url("wall.jpg");
 }
 
-.appname {
-    font-family: 'Staatliches', cursive;
-    font-size: 100px;
+#logoSigil {
     text-align: center;
-    color: purple;
-    font-weight: bold;
-    margin-bottom: 2%;
-}
-
-.appsummary1 {
-    font-family: 'Staatliches', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    color: #241227;
-    letter-spacing: 0.05em;
-    margin-bottom: 13px;
-}
-
-.appsummary2 {
-    font-family: 'Staatliches', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    color: #241227;
-    letter-spacing: 0.05em;
-    margin-bottom: 40px;
+    margin-left: 32%;
+    margin-bottom: 18px;
 }
 
 .content {
@@ -45,6 +24,24 @@
     margin-bottom: 50px;
     background-color: white;
     box-shadow: 10px 10px 7px 1px rgb(58, 5, 51);
+}
+
+#cabecera-txt {
+    font-family: 'Staatliches', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #241227;
+    letter-spacing: 0.05em;
+    margin-bottom: 40px;
+}
+
+.appname {
+    font-family: 'Staatliches', cursive;
+    font-size: 100px;
+    text-align: center;
+    color: purple;
+    font-weight: bold;
+    margin-bottom: 13px;
 }
 
 .text-box1 {
@@ -129,7 +126,7 @@
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
     border-radius: 20px;
-    margin-right: 160px;
+    margin-right: 170px;
 }
 
 .btn-limpiar:hover {
@@ -144,7 +141,7 @@
 
 #offset-box {
     text-align: center;
-    margin-bottom: 3%;
+    margin-bottom: 10%;
 
 }
 

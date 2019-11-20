@@ -1,16 +1,16 @@
 window.cipher = { 
  encode: (offsetNumber, newTxt) => {
-   console.log(newTxt)
+   //console.log(newTxt)
    let encodeTxt = "";
-   for (let i = 0; i < newTxt.length; i++) {
+   for (let i = 0; i <newTxt.length; i++) {
           let asciiNumber = newTxt.charCodeAt(i);
-          console.log(asciiNumber)
+          //console.log(asciiNumber)
 //Cifrado para MAYÚSCULAS
               if ((asciiNumber >= 65) && (asciiNumber <= 90)) {
           let code = ((asciiNumber - 65 + parseInt(offsetNumber)) % 26 + 65);
-          console.log(code)
+          //console.log(code)
           encodeTxt += String.fromCharCode(code);
-          console.log(encodeTxt)
+          //console.log(encodeTxt)
 //Cifrado para MINÚSCULAS
              } if ((asciiNumber >= 97) && (asciiNumber <= 122)) {
                 let code = ((asciiNumber - 97 + parseInt(offsetNumber)) % 26 + 97);
@@ -25,14 +25,14 @@ window.cipher = {
 },
 
 decode: (offsetNumber, newTxt) => {
-  console.log(newTxt)
+  //console.log(newTxt)
   let encodeTxt = "";
-  for (let i = 0; i < newTxt.length; i++) {
+  for (let i = 0; i <newTxt.length; i++) {
          let asciiNumber = newTxt.charCodeAt(i);
-         console.log(asciiNumber)
+         //console.log(asciiNumber)
              if ((asciiNumber >= 65) && (asciiNumber <= 90)) {
          let code = ((asciiNumber - 90 - parseInt(offsetNumber)) % 26 + 90);
-         console.log(code)
+         //console.log(code)
          encodeTxt += String.fromCharCode(code);
 //Cifrado para MINÚSCULAS
         } if ((asciiNumber >= 97) && (asciiNumber <= 122)) {
@@ -44,7 +44,7 @@ decode: (offsetNumber, newTxt) => {
                 
               }  
          }
-         console.log(encodeTxt)
+         //console.log(encodeTxt)
 
          return encodeTxt;
 }
