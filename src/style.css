@@ -11,11 +11,12 @@ body {
     text-align: center;
     margin-left: 32%;
     margin-bottom: 18px;
+    padding: 14px;
 }
 
 .content {
-    width: 60%;
-    height: 50%;
+    width: 800px;
+    height: 730px;
     border-radius: 10px;
     padding: 20px;
     border: 2px solid rgb(165, 10, 144);

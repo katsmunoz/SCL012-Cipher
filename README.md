@@ -1,8 +1,13 @@
-![Logo](./images\Sigil-logo.png)
+![Logo](images\Sigil-logo.png)
 
 # SIGIL
 
 - SIGIL es una app que permite crear y revelar mensajes avocados a diversos tipos de manifestaciones sociales.
+
+## Enlace deploy
+
+[Sigil](https://katsmunoz.github.io/SCL012-Cipher/src/index.html)
+
 
 ## Usuarios:
 La app está dirigida a jóvenes que requieran organizar diversos eventos de índole social (cacerolazos, marchas, funas, manifestaciones) de manera segura y confidencial, evitando exponerse a situaciones de juicio externo que pongan en peligro tanto la integridad de los usuarios como a la realización del evento en sí.
@@ -37,14 +42,13 @@ Screenshot prototipo 1
 
 ![sigil-figma](images\sigilFigma.jpg)
 
-### UX: Test de Usabilidad
 Después de terminar el diseño de mi app e integrar todas las características desde Figma, decidí realizar el primer test de usabilidad con usuarios reales, para comprobar si realmente se ajusta a sus necesidades en términos de diseño, facilidad de uso y navegabilidad.
 
 Después de recibir el feedback correspondiente, decidí cambiar algunos aspectos del diseño de la página. Lo más comentado fue el hecho de que el usuario no entendía la necesidad de ingresar un número, por lo que cambié la descripción del offset "número de desplazamientos" por "clave numérica" (hace más sentido tener una clave para descifrar un mensaje secreto). Además, decidí centrarlo para enfatizar la relevancia del offset (antes pasaba inadvertido), e integré alertas para que no pudieran llevarse a cabo las funciones de cifrado/descifrado si es que no se han completado los campos del box de texto izquierdo o del offset.
 
 Sumado a esto, decidí cambiar la descripción de la app que aparece debajo del título, ya que "eventos" quedaba poco claro (se confundía con eventos de Facebook). Para ello, decidí integrar ejemplos concretos para que se entendiera de forma clara el objetivo de la app.
 
-Finalmente, logré incorporar estos cambios al diseño final, junto con las funciones listas para cifrar mayúsculas, minúsculas y mantener los espacios.
+Finalmente, logré incorporar estos cambios al diseño final, junto con las funciones listas para cifrar mayúsculas, minúsculas y mantener los espacios. También incorporé un logo y un favecon para darle más identidad a la app.
 
 Screenshot diseño final
 

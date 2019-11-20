@@ -22,3 +22,11 @@ function revelar () {
     msgCoded.innerHTML = window.cipher.decode(offsetNumber.value, newTxt.value);
     
 }
+
+//Llamar funcion LIMPIAR
+document.getElementById('cleanBtn').addEventListener('click', limpiar);
+
+function limpiar () {
+    window.location.reload();
+    
+}
