@@ -19,8 +19,11 @@ function crear () {
 document.getElementById('revelar').addEventListener('click', revelar);
 
 function revelar () {
+    if (offsetNumber.value === "" || newTxt.value === "") {
+        alert('Recuerda ingresar tu mensaje y la clave numérica para continuar.');
+    } else {
     msgCoded.innerHTML = window.cipher.decode(offsetNumber.value, newTxt.value);
-    
+    }
 }
 
 //Llamar funcion LIMPIAR
